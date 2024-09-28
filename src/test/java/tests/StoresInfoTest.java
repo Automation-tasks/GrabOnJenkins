@@ -21,5 +21,6 @@ public class StoresInfoTest {
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.grabon.in/stores/");
+	System.out.println("Sample Text for Text Execution");
 }
 }
